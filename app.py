@@ -2,7 +2,7 @@ import streamlit as st
 from bot_logic import get_bot_response
 
 st.set_page_config(page_title="Mental Health Support Bot", layout="centered")
-st.title("💬 MindEase – Your Support Companion")
+st.title(" MindEase – Your Support Companion")
 
 if "chat" not in st.session_state:
     st.session_state.chat = []
