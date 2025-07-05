@@ -24,7 +24,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.markdown("## 💬 MindEase – Your Mental Health Chat Companion")
+st.markdown("## MindEase – Your Mental Health Chat Companion")
 st.markdown("Welcome. This is a safe, non-judgmental space to share how you're feeling. 🌿")
 
 if "chat" not in st.session_state:
